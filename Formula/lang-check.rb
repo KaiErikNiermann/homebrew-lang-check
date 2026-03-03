@@ -1,26 +1,26 @@
 class LangCheck < Formula
   desc "Multilingual prose linter with tree-sitter extraction and pluggable checking engines"
   homepage "https://github.com/KaiErikNiermann/lang-check"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/KaiErikNiermann/lang-check/releases/download/v0.2.0/language-check-aarch64-apple-darwin.tar.gz"
-      sha256 "2d3b60d1b4735aca2d5a6cfee57a7d960159cc6a53f902a659c73245d8ae8ca5"
+      url "https://github.com/KaiErikNiermann/lang-check/releases/download/v0.2.1/language-check-aarch64-apple-darwin.tar.gz"
+      sha256 "077692d440cb88af32c488d0638cb4e099fdef1b57d3f681a463712c26de9c7d"
     else
-      url "https://github.com/KaiErikNiermann/lang-check/releases/download/v0.2.0/language-check-x86_64-apple-darwin.tar.gz"
-      sha256 "9d5e2f2ca2cd524e83624144014449098687276ae02df9cac711a28996dbe96e"
+      url "https://github.com/KaiErikNiermann/lang-check/releases/download/v0.2.1/language-check-x86_64-apple-darwin.tar.gz"
+      sha256 "2055d536252c349fb951699622065c6c402e723958652afad0fb21eeefd2818f"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/KaiErikNiermann/lang-check/releases/download/v0.2.0/language-check-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "3aa74003f9a23354997fb8d032dbf79aa9b4f6ea90b2284cab3c0f50c2807fd2"
+      url "https://github.com/KaiErikNiermann/lang-check/releases/download/v0.2.1/language-check-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "6799853aafac8d04a829a071ac1f3423182e53ffa527f3230e61af993d0c0e3f"
     else
-      url "https://github.com/KaiErikNiermann/lang-check/releases/download/v0.2.0/language-check-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7e709eff58953c51fa733a5e90adb2b8724f3be7e27c83116e88fb3a925e1911"
+      url "https://github.com/KaiErikNiermann/lang-check/releases/download/v0.2.1/language-check-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "629e7f4790c470927cb6a11653461b74e9705477f01811b6ece0b012917bc033"
     end
   end
 
