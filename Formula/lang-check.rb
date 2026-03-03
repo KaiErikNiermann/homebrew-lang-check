@@ -1,26 +1,26 @@
 class LangCheck < Formula
   desc "Multilingual prose linter with tree-sitter extraction and pluggable checking engines"
   homepage "https://github.com/KaiErikNiermann/lang-check"
-  version "0.2.1"
+  version "0.2.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/KaiErikNiermann/lang-check/releases/download/v0.2.1/language-check-aarch64-apple-darwin.tar.gz"
-      sha256 "077692d440cb88af32c488d0638cb4e099fdef1b57d3f681a463712c26de9c7d"
+      url "https://github.com/KaiErikNiermann/lang-check/releases/download/v0.2.2/language-check-aarch64-apple-darwin.tar.gz"
+      sha256 "404445d8db5b3abd26367eed06328363daacd2758a764e761448a7d118ad9b0f"
     else
-      url "https://github.com/KaiErikNiermann/lang-check/releases/download/v0.2.1/language-check-x86_64-apple-darwin.tar.gz"
-      sha256 "2055d536252c349fb951699622065c6c402e723958652afad0fb21eeefd2818f"
+      url "https://github.com/KaiErikNiermann/lang-check/releases/download/v0.2.2/language-check-x86_64-apple-darwin.tar.gz"
+      sha256 "93c292db00e82a46729d2bd0a612dd58cf134fd10da2a5711a7a62229515fcba"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/KaiErikNiermann/lang-check/releases/download/v0.2.1/language-check-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "6799853aafac8d04a829a071ac1f3423182e53ffa527f3230e61af993d0c0e3f"
+      url "https://github.com/KaiErikNiermann/lang-check/releases/download/v0.2.2/language-check-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "0d516e9a080a9dc9050daa9aab88652185f9f119b643fad08cbbf05cce4fe7e3"
     else
-      url "https://github.com/KaiErikNiermann/lang-check/releases/download/v0.2.1/language-check-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "629e7f4790c470927cb6a11653461b74e9705477f01811b6ece0b012917bc033"
+      url "https://github.com/KaiErikNiermann/lang-check/releases/download/v0.2.2/language-check-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "b8f371abde62f80d4a6c004e91aadccf68cab013228b1699b9f92fc8d5b6fa91"
     end
   end
 
