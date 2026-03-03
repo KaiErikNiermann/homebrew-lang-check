@@ -1,26 +1,26 @@
 class LangCheck < Formula
   desc "Multilingual prose linter with tree-sitter extraction and pluggable checking engines"
-  homepage "https://github.com/KaiErikNiermann/lang-check"
-  version "0.2.2"
+  homepage "https://github.com/KaiErikNiermann/LangCheck"
+  version "0.2.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/KaiErikNiermann/lang-check/releases/download/v0.2.2/language-check-aarch64-apple-darwin.tar.gz"
-      sha256 "404445d8db5b3abd26367eed06328363daacd2758a764e761448a7d118ad9b0f"
+      url "https://github.com/KaiErikNiermann/LangCheck/releases/download/v0.2.3/language-check-aarch64-apple-darwin.tar.gz"
+      sha256 "2ba56d8557aa14794ab4335ab86533570d6c5fc341feb1d56360c7e0258cc32f"
     else
-      url "https://github.com/KaiErikNiermann/lang-check/releases/download/v0.2.2/language-check-x86_64-apple-darwin.tar.gz"
-      sha256 "93c292db00e82a46729d2bd0a612dd58cf134fd10da2a5711a7a62229515fcba"
+      url "https://github.com/KaiErikNiermann/LangCheck/releases/download/v0.2.3/language-check-x86_64-apple-darwin.tar.gz"
+      sha256 "c810c434b6e592fd00019301b3d8fae08f0b185fe509fded9ab8c8b8fce113c6"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/KaiErikNiermann/lang-check/releases/download/v0.2.2/language-check-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "0d516e9a080a9dc9050daa9aab88652185f9f119b643fad08cbbf05cce4fe7e3"
+      url "https://github.com/KaiErikNiermann/LangCheck/releases/download/v0.2.3/language-check-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "0bfb62fa82ce0e9d9a6f898dcf517ca8525781ab50337778e7bcda3fafe09e8a"
     else
-      url "https://github.com/KaiErikNiermann/lang-check/releases/download/v0.2.2/language-check-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b8f371abde62f80d4a6c004e91aadccf68cab013228b1699b9f92fc8d5b6fa91"
+      url "https://github.com/KaiErikNiermann/LangCheck/releases/download/v0.2.3/language-check-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "037d70f26f0f126e98fc7532c9b00ded614215dd637d34d1bfd39fd173996796"
     end
   end
 
