@@ -1,26 +1,26 @@
 class LangCheck < Formula
   desc "Multilingual prose linter with tree-sitter extraction and pluggable checking engines"
   homepage "https://github.com/KaiErikNiermann/LangCheck"
-  version "0.6.0"
+  version "0.6.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/KaiErikNiermann/LangCheck/releases/download/v0.6.0/language-check-aarch64-apple-darwin.tar.gz"
-      sha256 "af1274a5e6e6b0e801f47593f74641ddd5e8eb3ad186ac96abdb2c8f59cf1192"
+      url "https://github.com/KaiErikNiermann/LangCheck/releases/download/v0.6.1/language-check-aarch64-apple-darwin.tar.gz"
+      sha256 "b3d6ecdee6f214c01b8922348129ef567cb97c030bdf7773e5c5c8c8c820ec7c"
     else
-      url "https://github.com/KaiErikNiermann/LangCheck/releases/download/v0.6.0/language-check-x86_64-apple-darwin.tar.gz"
-      sha256 "6bac37e8972b008a53d258462281cc82c2877c3913d02d040a35ebd4aceed189"
+      url "https://github.com/KaiErikNiermann/LangCheck/releases/download/v0.6.1/language-check-x86_64-apple-darwin.tar.gz"
+      sha256 "29a547e019f5e3f79a89626e11e142583b77a2bbb47e577a277c9fd6bbb5cd6f"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/KaiErikNiermann/LangCheck/releases/download/v0.6.0/language-check-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "2920b57a0361015cfa300930dda6d0755a5ae082bf63a13ec17fcaff64b04c09"
+      url "https://github.com/KaiErikNiermann/LangCheck/releases/download/v0.6.1/language-check-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "e5f2896cb22ffebc5ff20b77c61144040c5d6d272460d7f12c5f6b24166eba5d"
     else
-      url "https://github.com/KaiErikNiermann/LangCheck/releases/download/v0.6.0/language-check-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b3914422d2af288b89b3e6e08266ff13e6613da8071ccba99856220f06c79307"
+      url "https://github.com/KaiErikNiermann/LangCheck/releases/download/v0.6.1/language-check-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "10e95c21522336e1fdbfb6d36dec19c4e7f25c460344740e9c025c1ffadc12ee"
     end
   end
 
